@@ -1,0 +1,34 @@
+#particulas-js{
+    background: url(../imagenes/slider1.jpg);
+    background-position: center; /*centra imagen*/
+    background-attachment: contain; /*obliga estar dentro de proporciones*/
+    background-size: cover; /*toma tamaño de contenedor*/
+    width: 100%;
+    height: 800px;
+}
+
+.ancho-slider{
+top: 150px;
+position: absolute; /*Caja Sobre Fondo*/
+width: 100%;
+/*background: rgba(0, 0, 0, 0.5);*/
+text-align: center;
+z-index: 5;
+}
+
+.letras-slider{
+width: 80%;
+margin: auto;
+}
+
+.letras-slider h1{
+    color:#fff;
+    font-family: rale;
+    font-size: 70px;
+}
+.letras-slider p{
+    color:#fff ;
+    font-family: rale;
+    font-size: 50px;
+    padding-top: 50px;
+}
